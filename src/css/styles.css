@@ -1,10 +1,15 @@
 div {
   border-radius: 5px;
   padding: 10px;
+  border: 1px solid rgb(228, 219, 219);
 }
 button {
   font: 17px Arial;
   font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  outline: 0;
 }
 body {
   background: #f4ecd7;
@@ -16,50 +21,10 @@ h1 {
   font-weight: bold;
 }
 
-#playerCover {
-  width: 60%;
-  /* height: 500px; */
-  background: #9f9ccc;
+ul {
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
-.playerCover {
-  width: 60%;
-  /* height: 500px; */
-  background: #9f9ccc;
-}
-
-#screenName {
-  background: #eee;
-}
-#tracks {
-  background: #ddd;
-  margin: 5px;
-  border: 1px solid red;
-}
-
-#play {
-  background: green;
-}
-#stop {
-  background: red;
-}
-#back, #next, .someClass4 {
-  background: gold;
-}
-
-.someClass {
-  background: rgb(110, 134, 185);
-}
-#weirdId, .someClass2 {
-  /* background: #ecd073; */
-  background: gold;
-  padding: 5px;
-  margin: 3px;
-}
-
-#bodyForPlayer {
-    background: #ccc;
-}
-
-#rootDiv {
-    /* border: 2px solid purple; */
+.className {
+  /* border: 0px solid goldenrod; */
 }

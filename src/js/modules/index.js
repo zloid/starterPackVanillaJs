@@ -1,8 +1,12 @@
-import * as superZloid from "./scripts/superZloid.js";
-import { app } from "./components/app.js";
-import { createElement } from "./scripts/createElement.js";
+import * as superZloid from './scripts/superZloid.js'
+import { app } from './components/app.js'
+import { workWithApi } from './components/workWithApi.js'
+import { asyncAwaitApi } from './components/asyncAwaitApi.js'
+import { darkskyNetApi } from './components/darkskyNetApi.js'
 
-createElement("div", "rootDiv", "", '', "#root");
-app();
+superZloid.getH1FromTitle()
 
-superZloid.dynamicsH1FromTitle();
+app()
+//workWithApi()
+ asyncAwaitApi()
+//darkskyNetApi()
